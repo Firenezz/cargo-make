@@ -10,3 +10,6 @@ dump.rdb
 /core
 /src/**/Cargo.lock
 /examples/**/Cargo.lock
+/result
+/result-lib
+.direnv
