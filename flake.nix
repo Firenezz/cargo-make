@@ -38,7 +38,7 @@
         devShells.default = pkgs.mkShell {
           inputsFrom = [ self'.devShells.cargo-make ];
           packages = [
-            
+
           ];
         };
         packages.default = self'.packages.cargo-make;
